@@ -2,7 +2,7 @@ import React from "react";
 import Count from "./Count";
 import Buttons from "./Buttons";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchImageAsync } from "../store/reducers/imageReducer";
+import { fetchImageAsync } from "../store/module/image";
 
 export default function Card() {
   const dispatch = useDispatch();
